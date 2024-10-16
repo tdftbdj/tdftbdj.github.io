@@ -7,25 +7,39 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
         }
         header {
-            background-color: #f4f4f4;
+            background-color: #333;
+            color: #fff;
             padding: 20px;
-            margin-bottom: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            margin: 0;
+            padding: 10px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        .image-box {
+            margin: 10px;
+            flex-basis: 30%;
+            text-align: center;
         }
         img {
             max-width: 100%;
             height: auto;
             border-radius: 10px;
         }
-        h1 {
+        h2 {
             color: #333;
-        }
-        .container {
-            padding: 20px;
         }
     </style>
 </head>
@@ -36,54 +50,19 @@
     </header>
 
     <div class="container">
-        <h2>這是一張美麗的圖片</h2>
-        <img src="<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>圖片和標題網站</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #f4f4f4;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-        h1 {
-            color: #333;
-        }
-        .container {
-            padding: 20px;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>歡迎來到我的圖片展示網站</h1>
-    </header>
-
-    <div class="container">
-        <h2>這是一張美麗的圖片</h2>
-        <img src="https://i.imgur.com/OC6ZgWi.jpeg" alt="示例圖片">
+        <div class="image-box">
+            <h2>圖片 1</h2>
+            <img src="https://i.imgur.com/OC6ZgWi.jpeg"示例圖片1">
+        </div>
+        <div class="image-box">
+            <h2>圖片 2</h2>
+            <img src="https://i.imgur.com/rH4lrbI.jpeg" alt="示例圖片2">
+        </div>
+        <div class="image-box">
+            <h2>圖片 3</h2>
+            <img src="https://i.imgur.com/TYAf5qv.jpeg"示例圖片3">
+        </div>
     </div>
 
 </body>
 </html>
-" alt="示例圖片">
-    </div>
-
-</body>
-</html>
-
